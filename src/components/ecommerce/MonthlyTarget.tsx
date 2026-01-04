@@ -73,8 +73,8 @@ export default function MonthlyTarget() {
   }
 
   return (
-    <div className="rounded-2xl border border-gray-200 bg-gray-100 dark:border-gray-800 dark:bg-white/[0.03]">
-      <div className="px-5 pt-5 bg-white shadow-default rounded-2xl pb-11 dark:bg-gray-900 sm:px-6 sm:pt-6">
+    <div className="rounded-2xl border border-gray-200 bg-gray-100 dark:border-neutral-700 dark:bg-white/[0.03]">
+      <div className="px-5 pt-5 bg-white shadow-default rounded-2xl pb-11 dark:bg-white/[0.01] sm:px-6 sm:pt-6">
         <div className="flex justify-between">
           <div>
             <h3 className="text-lg font-semibold text-gray-800 dark:text-white/90">
@@ -91,7 +91,7 @@ export default function MonthlyTarget() {
             <Dropdown
               isOpen={isOpen}
               onClose={closeDropdown}
-              className="w-40 p-2"
+              className="w-40 p-2 dark:bg-neutral-950"
             >
               <DropdownItem
                 tag="a"
@@ -154,7 +154,7 @@ export default function MonthlyTarget() {
           </p>
         </div>
 
-        <div className="w-px bg-gray-200 h-7 dark:bg-gray-800"></div>
+        <div className="w-px bg-gray-200 h-7 dark:bg-neutral-700"></div>
 
         <div>
           <p className="mb-1 text-center text-gray-500 text-theme-xs dark:text-gray-400 sm:text-sm">
@@ -179,7 +179,7 @@ export default function MonthlyTarget() {
           </p>
         </div>
 
-        <div className="w-px bg-gray-200 h-7 dark:bg-gray-800"></div>
+        <div className="w-px bg-gray-200 h-7 dark:bg-neutral-700"></div>
 
         <div>
           <p className="mb-1 text-center text-gray-500 text-theme-xs dark:text-gray-400 sm:text-sm">
